@@ -1,6 +1,7 @@
 {
     "name": "simplydi/skeleton",
     "description": "Simple and Minimal PHP Skeleton for any project (inspired from Mezzio/Zend Expressive)",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
