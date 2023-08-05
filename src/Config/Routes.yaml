@@ -1,0 +1,7 @@
+router:
+  defaultNamespace: App\Controller
+
+routes:
+  /:
+    controller: HomeController
+    method: index

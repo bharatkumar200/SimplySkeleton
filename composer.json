@@ -17,6 +17,7 @@
     },
     "require": {
         "simplydi/functions": "dev-main",
-        "simplydi/simplyconfig": "dev-main"
+        "simplydi/simplyconfig": "dev-main",
+        "nette/utils": "^4.0"
     }
 }

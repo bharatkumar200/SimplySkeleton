@@ -1,0 +1,10 @@
+## Set the dependencies the way you want,
+## You will have to define your dependency container in Dependencies.php
+## and use the data you set here to call the dependencies there
+dependencies:
+  Core\Interface\TemplateRendererInterface:
+    class: \App\Service\DummyTemplateRenderer # a "Dummy" templating engine; replace with your own
+  homeController:
+    class: \App\Controller\HomeController
+    arguments:
+      Core\Interface\TemplateRendererInterface

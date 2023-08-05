@@ -8,4 +8,4 @@
  */
 
 // get the array of dependencies from Config.yaml
-$dependencies = $config->get('dependencies');
+$dependencies = $config->getConfig('dependencies');
