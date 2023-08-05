@@ -1,5 +1,21 @@
-vendor/
+# IDE
 .vscode/
 .idea/
-.env
+
+# Composer
+vendor/
+
+# NPM
 node_modules/
+
+# Temporary files
+temp/cache/*
+!temp/cache/.gitkeep
+temp/logs/*
+!temp/logs/.gitkeep
+
+# environment
+.env
+
+# Testing
+tests/_output/

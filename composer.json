@@ -8,5 +8,15 @@
             "email": "namankumar80510@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "SimplyDi\\Skeleton\\": "core/",
+            "Config\\": "src/Config/",
+            "App\\": "src/Modules/App/"
+        }
+    },
+    "require": {
+        "simplydi/functions": "dev-main",
+        "simplydi/simplyconfig": "dev-main"
+    }
 }
