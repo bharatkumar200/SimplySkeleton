@@ -13,11 +13,15 @@
             "SimplyDi\\Skeleton\\": "core/",
             "Config\\": "src/Config/",
             "App\\": "src/Modules/App/"
-        }
+        },
+        "files": [
+            "src/Bootstrap/Functions.php"
+        ]
     },
     "require": {
         "simplydi/functions": "dev-main",
         "simplydi/simplyconfig": "dev-main",
-        "nette/utils": "^4.0"
+        "nette/utils": "^4.0",
+        "symfony/console": "^6.3"
     }
 }
