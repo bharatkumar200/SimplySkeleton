@@ -13,6 +13,7 @@ class Config
 
     public function __construct(string $configFolder)
     {
+        $this->configFolder = $configFolder;
         $this->config = new SimplyConfig($this->findConfigFiles());
     }
 
