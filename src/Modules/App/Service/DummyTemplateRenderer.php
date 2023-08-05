@@ -4,6 +4,11 @@ namespace App\Service;
 
 use SimplyDi\Skeleton\Interface\TemplateRendererInterface;
 
+/**
+ * This is for demonstration only
+ * Remove or replace with your own
+ * e.g., TwigRenderer or PlatesRenderer
+ */
 class DummyTemplateRenderer implements TemplateRendererInterface
 {
 
